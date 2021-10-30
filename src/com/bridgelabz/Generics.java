@@ -2,7 +2,7 @@ package com.bridgelabz;
 /**
 *Author : Renu
  * date : 30/10/2021
- * Purpose:find the Integer,char,float value to print
+ * Purpose:find the Integer,char,float value to print using generic
  */
 
 
