@@ -1,4 +1,11 @@
 package com.bridgelabz;
+/**
+* Author : Renu
+ * date : 30/10/2021
+ * Purpose:find the Integer value which is maximum"
+ */
+
+
 
 public class Generics {
     public static void main(String[] args) {
