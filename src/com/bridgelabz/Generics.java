@@ -15,7 +15,7 @@ public class Generics {
         return max;
     }
     public static void main(String args[]) {
-        System.out.printf("Maximum number of (%d,%d,%d) is : %d\n\n", 12, 81, 10, maximum(12, 8, 10));
+        System.out.printf("Maximum number of (%d,%d,%d) is : %d\n\n", 12, 8, 10, maximum(12, 8, 10));
     }
 
 
