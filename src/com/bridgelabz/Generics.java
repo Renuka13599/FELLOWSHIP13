@@ -1,6 +1,6 @@
 package com.bridgelabz;
 /*
-Author : janani vijayakumar
+Author : Renu
  * date : 30/10/2021
  * Purpose:find the float value which is maximum"
  */
