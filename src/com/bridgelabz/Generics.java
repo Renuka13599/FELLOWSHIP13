@@ -1,4 +1,10 @@
 package com.bridgelabz;
+/*
+Author : janani vijayakumar
+ * date : 30/10/2021
+ * Purpose:find the float value which is maximum"
+ */
+
 
 public class Generics {
     public static void main(String[] args) {
