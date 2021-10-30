@@ -1,20 +1,21 @@
 package com.bridgelabz;
 
 public class Generics {
-    public static <R> void toPrint(R[] inputArray) {
-        for (R element : inputArray) {
-            System.out.printf("%s", element);
-        }
-        System.out.println();
+    public static void main(String[] args) {
+        String s1 = "apple";
+        String s2 = "banana";
+        String s3 = "peach";
+
+        System.out.println(getMax(s1,s2,s3));
     }
 
-    public static void main(String[] args) {
+    private static <T extends Comparable> T getMax(T a, T b, T c) {
 
-        Integer[] intArray = {1, 2, 3, 4, 5};
-        Double[] doubleArray = {1.1, 2.2, 3.3, 4.4};
-        Character[] charArray = {'A', 'B', 'C'};
-        Generics.toPrint(intArray);
-        Generics.toPrint(doubleArray);
-        Generics.toPrint(charArray);
+        if (a.compareTo(b) > 0 && a.compareTo(c) > 0)
+            return a;
+        else if (b.compareTo(a) > 0 && b.compareTo(c) > 0)
+            return b;
+        else
+            return c;
     }
 }
