@@ -1,4 +1,9 @@
 package com.bridgelabz;
+/**Author:Renu
+* Date:30/10/21
+* Purpose:Give the three strings which is maximum
+*/
+
 
 public class Generics {
     public static void main(String[] args) {
