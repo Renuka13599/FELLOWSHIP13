@@ -1,4 +1,10 @@
 package com.bridgelabz;
+/**
+*Author : Renu
+ * date : 30/10/2021
+ * Purpose:find the Integer,char,float value to print
+ */
+
 
 public class Generics {
     public static <R> void toPrint(R[] inputArray) {
