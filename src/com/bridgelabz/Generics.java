@@ -2,10 +2,9 @@ package com.bridgelabz;
 
 public class Generics {
     public static void main(String[] args) {
-        String s1 = "apple";
-        String s2 = "banana";
-        String s3 = "peach";
-
+        Integer s1 = 10;
+        Integer s2 = 20;
+        Integer s3 = 30;
         System.out.println(getMax(s1,s2,s3));
     }
 
@@ -19,3 +18,4 @@ public class Generics {
             return c;
     }
 }
+
