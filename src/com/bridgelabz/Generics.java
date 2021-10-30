@@ -7,8 +7,8 @@ package com.bridgelabz;
 
 
 public class Generics {
-    public static <R> void toPrint(R[] inputArray) {
-        for (R element : inputArray) {
+    public static <T> void toPrint(T[] inputArray) {
+        for (T element : inputArray) {
             System.out.printf("%s", element);
         }
         System.out.println();
