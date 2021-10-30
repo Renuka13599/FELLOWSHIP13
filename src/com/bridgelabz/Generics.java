@@ -1,4 +1,10 @@
 package com.bridgelabz;
+/**
+*Author:Renu
+*Date:30/10/21
+*Purpose:To print element using array
+*/
+
 
 public class Generics {
         public static void toPrint(Integer[] inputArray) {
